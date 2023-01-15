@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "git.hashibutogarasu.lighthud.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+
+  ],
+  "client": [
+    "LightHUDRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

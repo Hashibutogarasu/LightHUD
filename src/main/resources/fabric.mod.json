@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "lighthud",
+  "version": "${version}",
+  "name": "LightHUD",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lighthud/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "git.hashibutogarasu.lighthud.client.LighthudClient"
+    ],
+    "main": [
+      "git.hashibutogarasu.lighthud.Timehud"
+    ]
+  },
+  "mixins": [
+    "lighthud.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
